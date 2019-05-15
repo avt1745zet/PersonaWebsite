@@ -33,36 +33,6 @@
 
     setTimeout(ChangeBg, interval);
     */
-    /*Hide content space and all content space content*/
-
-    $('#contentSpace').hide();
-    $('#contentSpace > div').hide();
-
-    /*Navbar click events*/
-
-    var currentContent = $('#content-home');
-    var contentFading = false;
-
-    $(".nav-btn").on("click", function (e) {
-        e.preventDefault();
-
-        var targetContentElement = $(this).data('target');
-        var currentContentElement = '#' + currentContent.attr('id');
-
-        if (targetContentElement != currentContentElement && !contentFading) {
-            contentFading = true;
-
-            currentContent.fadeOut(500, function () {
-                contentFading = false;
-
-                currentContent = $(targetContentElement);
-
-                currentContent.fadeIn(1000);
-            });
-        }
-        $('#navbarCollapse1').collapse('hide');
-    })
-
     $('.video-content').magnificPopup({
         disableOn: 700,
         type: 'iframe',
@@ -72,7 +42,7 @@
 
         fixedContentPos: false
     });
-})
+});
 
 
 

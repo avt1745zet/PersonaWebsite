@@ -13,6 +13,6 @@
         $('#content-home').fadeIn(3000);
     };
 
-    setTimeout(fadeLoading,1000);
-    setTimeout(showContentSpace,3000);
-})
+    setTimeout(fadeLoading, 1000);
+    setTimeout(showContentSpace, 3000);
+});
