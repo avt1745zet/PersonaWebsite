@@ -21,7 +21,7 @@
 
 
     function ChangeBg() {
-        $("#wrapperBg").css('background-image', 'url(' + imagePaths[currentIndex] + ')');
+        $("#wrapper").css('background-image', 'url(' + imagePaths[currentIndex] + ')');
         currentIndex = (currentIndex + 1) % imagePaths.length;
 
         reflash();
