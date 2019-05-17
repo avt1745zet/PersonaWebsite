@@ -3,16 +3,27 @@
     height: 100%;
 }
 
-#wrapper{
+#wrapper {
     min-height: 100%;
     position: relative;
     padding-bottom: 50px;
 }
 
+footer::before {
+    content: "©2019 Linya Studio.";
+    color: white;
+}
+
+footer::after {
+    content: " All Rights Reserved.";
+    color: white;
+}
+
 footer {
-    height: 50px; 
+    height: 50px;
     position: absolute;
     bottom: 0;
     background-color: rgba(5,5,5,.5);
+    text-align: center;
     line-height: 50px; /* Vertically center the text there */
 }
