@@ -1,8 +1,11 @@
-﻿main {
-    padding-top: 70px;
-    font-family: 'Microsoft JhengHei';
+﻿body {
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
-.nav-detail{
-    display:inline;
+header {
+    padding-top: 90px;
+}
+
+main {
+    margin-top:20px;
 }
