@@ -44,5 +44,13 @@
     });
 });
 
+$(document).click(function () {
+    $("#navbarCollapse1").collapse('hide');
+});
+
+$(window).scroll(function () {
+    $("#navbarCollapse1").collapse('hide');
+});
+
 
 
