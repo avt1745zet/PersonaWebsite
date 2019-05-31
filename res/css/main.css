@@ -6,7 +6,7 @@
     height:100vh;
     width:100vw;
     position:fixed;
-    background-image: url(../img/firefly%20diary.jpg);
+    background-image: url(../img/rosie-fraser-187327-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -42,3 +42,12 @@ footer {
         content: " All Rights Reserved.";
         color: white;
     }
+
+.fill{
+    height:100%;
+    width:100%;
+}
+
+.bg-black-30{
+    background-color:rgba(0,0,0,.3);
+}

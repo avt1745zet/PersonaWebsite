@@ -11,9 +11,11 @@
     <!-- 3rd css party -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha256-PZLhE6wwMbg4AB3d35ZdBF9HD/dI/y4RazA3iRDurss=" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" />
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="../res/css/scrollbar.css" />
     <link rel="stylesheet" type="text/css" href="../res/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="res/css/portfolio.css" />
+
     <!-- Title -->
     <title>羊羽的作品集</title>
     <!-- Meta -->
@@ -91,50 +93,32 @@
         </header>
 
         <!-- Main -->
-        <main class="container text-light">
-            <div class="row">
+        <main class="container">
+            <div class="row justify-content-center">
                 <!-- Game -->
-                <div class="col-12 col-sm-4">
-                    <div class="d-flex justify-content-center">
-                        <div>
-                            <h2 class="text-center font">
-                                遊戲
-                                <span class="fas fa-gamepad"></span>
-                            </h2>
-                            <a href="https://avt1745zet.github.io/Portfolio/" target="_blank">
-                                <img class="img-fluid" src="http://fakeimg.pl/300x400" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <a class="col-12 col-lg-3 d-flex flex-wrap justify-content-center m-2 p-0 position-relative workselector" style="background:url(res/img/game.png) top;background-size:cover; height:400px" href="https://avt1745zet.github.io/Portfolio" target="_blank">
+                    <div class="fill bg-black-30 position-absolute"></div>
+                    <h2 class="text-center align-self-center text-white" style="z-index:1">
+                        遊戲
+                        <span class="fas fa-gamepad"></span>
+                    </h2>
+                </a>
                 <!-- Painting -->
-                <div class="col-12 col-sm-4 pt-5 pt-sm-0">
-                    <div class="d-flex justify-content-center">
-                        <div>
-                            <h2 class="text-center">
-                                繪圖
-                                <span class="fas fa-palette"></span>
-                            </h2>
-                            <a href="https://www.pixiv.net/member_illust.php?id=4777082&type=illust" target="_blank">
-                                <img class="img-fluid" src="http://fakeimg.pl/300x400" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <a class="col-12 col-lg-3 d-flex flex-wrap justify-content-center m-2 workselector" style="background:url(res/img/painting.png) left;background-size:cover; height:400px" href="https://www.pixiv.net/member_illust.php?id=4777082&type=illust" target="_blank">
+                    <div class="fill bg-black-30 position-absolute"></div>
+                    <h2 class="text-center align-self-center text-white" style="z-index:1">
+                        繪圖
+                        <span class="fas fa-palette"></span>
+                    </h2>
+                </a>
                 <!-- Photography -->
-                <div class="col-12 col-sm-4 pt-5 pt-sm-0">
-                    <div class="d-flex justify-content-center">
-                        <div>
-                            <h2 class="text-center">
-                                攝影
-                                <span class="fas fa-camera"></span>
-                            </h2>
-                            <a href="https://photos.app.goo.gl/Lt4xFB1nfRjYhUbb6" target="_blank">
-                                <img class="img-fluid" src="http://fakeimg.pl/300x400" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <a class="col-12 col-lg-3 d-flex flex-wrap justify-content-center m-2 workselector" style="background:url(res/img/photography.png) top;background-size:cover; height:400px" href="https://photos.app.goo.gl/Lt4xFB1nfRjYhUbb6" target="_blank">
+                    <div class="fill bg-black-30 position-absolute"></div>
+                    <h2 class="text-center align-self-center text-white" style="z-index:1;">
+                        攝影
+                        <span class="fas fa-camera"></span>
+                    </h2>
+                </a>
             </div>
             <!-- /.row -->
         </main>
@@ -151,6 +135,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js" integrity="sha256-wk7QMTzYE7BJvko9BsywPzRmKzhCtIQKTuN6/B9sRmw=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
     <!-- Local js-->
-    <script type="text/javascript" src="../res/js/main.js"></script>
+    <script type="text/javascript" src="res/js/portfolio.js"></script>
 </body>
 </html>
