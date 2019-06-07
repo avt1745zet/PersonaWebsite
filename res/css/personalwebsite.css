@@ -34,7 +34,7 @@ footer {
 }
 
     footer::before {
-        content: "©2019 Linya Studio.";
+        content: "©2019 羊羽的小窩.";
         color: white;
     }
 
