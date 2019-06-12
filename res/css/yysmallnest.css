@@ -51,7 +51,15 @@ footer {
 .bg-black-30 {
     background-color: rgba(0,0,0,.3);
 }
+
+.emoticon{
+    display:inline-block;
+}
 /*portfolio*/
 .workselector:hover {
     text-decoration: none;
+}
+
+.portfolio-title{
+    z-index:1;
 }
