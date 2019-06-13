@@ -18,27 +18,16 @@
     border-bottom: 1px solid white;
 }
 
-#body-wrap {
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 50px;
-}
-
-footer {
-    height: 50px;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(5,5,5,.2);
+#copyright {
     text-align: center;
-    line-height: 50px; /* Vertically center the text there */
 }
 
-    footer::before {
+    #copyright::before {
         content: "©2019 羊羽的小窩.";
         color: white;
     }
 
-    footer::after {
+    #copyright::after {
         content: " All Rights Reserved.";
         color: white;
     }
@@ -52,14 +41,14 @@ footer {
     background-color: rgba(0,0,0,.3);
 }
 
-.text-nobreak{
-    display:inline-block;
+.text-nobreak {
+    display: inline-block;
 }
 /*portfolio*/
 .workselector:hover {
     text-decoration: none;
 }
 
-.portfolio-title{
-    z-index:1;
+.portfolio-title {
+    z-index: 1;
 }
