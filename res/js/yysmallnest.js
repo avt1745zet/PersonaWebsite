@@ -37,14 +37,16 @@ $(document).ready(function () {
  */
 $(document).ready(function () {
     $(".workselector").mouseenter(function () {
-        $(this).children("div").stop();
+        var target = $(this).children("div");
+        target.stop();
         var h = $(this).height();
         var h3h = $(this).find("h3").height();
-        $(this).children("div").animate({ top: h / 2 - h3h * 0.75, bottom: h / 2 - h3h * 0.75, height: h3h * 1.5 }, 1000, "easeOutBack");
+        target.animate({ top: h / 2 - h3h * 0.75, bottom: h / 2 - h3h * 0.75, height: h3h * 1.5 }, 1000, "easeOutBack");
     });
     $(".workselector").mouseleave(function () {
-        $(this).children("div").stop();
-        $(this).children("div").animate({ top: "0", bottom: "0", height: "100%" }, 1000, "easeInBounce");
+        var target = $(this).children("div");
+        target.stop();
+        target.animate({ top: "0", bottom: "0", height: "100%" }, 1000, "easeInBounce");
     });
 });
 /*
