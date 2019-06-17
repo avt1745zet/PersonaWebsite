@@ -45,8 +45,10 @@
     display: inline-block;
 }
 /*portfolio*/
-.workselector:hover {
-    text-decoration: none;
+.workselector {
+    height: 400px;
+    background-size: cover;
+    background-position:top;
 }
 
 .portfolio-title {

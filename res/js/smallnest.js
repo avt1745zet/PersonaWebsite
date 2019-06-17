@@ -12,10 +12,8 @@ $(document).ready(function () {
 
         var target = $(this.getAttribute('href'));
 
-        var navbarHeight = $(".navbar a").height();
-
         $("html, body").stop();
-        $("html, body").animate({ scrollTop: target.offset().top - navbarHeight }, 1000, "easeInOutExpo");
+        $("html, body").animate({ scrollTop: target.offset().top}, 1000, "easeInOutExpo");
     });
     /*
      * Scroll spy.
